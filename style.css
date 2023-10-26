@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav button{
+    display: none;
+}
+.ctrl{
+    display: block;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+    @media(max-width: 576px){
+        nav button{
+            display: block;
+        }
+        nav ul{
+            display: block;
+            
+        }
+    }
